@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jampala Sindhuja Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap" rel="stylesheet"/>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f4f6f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    nav {
+      background: #222;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav .logo {
+      color: #fff;
+      font-size: 22px;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+      padding: 8px 14px;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+
+    nav ul li a:hover {
+      background-color: #ff7043;
+    }
+
+    .section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .section h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 32px;
+      margin-bottom: 20px;
+      color: #2e86de;
+    }
+
+    .section p {
+      font-size: 18px;
+      color: #444;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #74b9ff, #ff7675);
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .hero p {
+      margin-top: 10px;
+      font-size: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: white;
+      color: #ff7043;
+      text-decoration: none;
+      border-radius: 25px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #333;
+      color: white;
+    }
+
+    .card {
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+
+    .card h3 {
+      color: #ff7043;
+      margin-bottom: 10px;
+    }
+
+    .resume-section {
+      background-color: #ff7043;
+      color: white;
+      text-align: center;
+    }
+
+    .resume-section a {
+      display: inline-block;
+      margin-top: 15px;
+      background-color: white;
+      color: #ff7043;
+      padding: 12px 20px;
+      border-radius: 25px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .resume-section a:hover {
+      background-color: #333;
+      color: white;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+    @media screen and (max-width: 600px) {
+      .hero h1 {
+        font-size: 32px;
+      }
+    }
+    /* .card .btn {
+      font-size: 14px;
+      padding: 8px 16px;
+      margin-top: 10px;
+      display: inline-block;
+    } */
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #ff7043;
+      color: white;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: bold;
+      font-size: 14px;
+      transition: 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #333;
+      color: white;
+    }
+
+
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">Jampala Sindhuja</div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Welcome to My Portfolio</h1>
+    <p>Electronics & Communication Engineering Graduate | Aspiring IT Professional</p>
+    <a class="btn" href="#contact">contact</a>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <h2>About Me</h2>
+    <p>I am a recent engineering graduate from Christu Jyothi Institute of Technology and Science, specialized in Electronics and Communication Engineering. I am enthusiastic about applying my technical skills in the IT industry and continuously expanding my knowledge in software development.</p>
+  </section>
+
+  <!-- Education Section -->
+  <section class="section" id="education">
+    <h2>Education</h2>
+    <div class="card">
+      <h3>Christu Jyothi Institute of Technology and Science, Telangana</h3>
+      <p>B.Tech in Electronics and Communication Engineering<br>CGPA: 7.79<br>Relevant Coursework: OOP, DBMS, Embedded Systems, Data Communications and Networking</p>
+    </div>
+    <div class="card">
+      <h3>Telangana State Residential Junior College</h3>
+      <p>Intermediate (MPC) – CGPA: 9.37</p>
+    </div>
+    <div class="card">
+      <h3>St. Mary’s High School</h3>
+      <p>SSC – CGPA: 9.5</p>
+    </div>
+  </section>
+
+
+  <!-- Certifications Section -->
+  <section class="section" id="certifications">
+    <h2>Certifications</h2>
+
+    <div class="card">
+      
+      <h3>AWS Cloud Certification</h3>
+      <p>Issued by ICT Academy</p>
+    </div>
+
+    <div class="card">
+      <h3>Python Full Stack Development</h3>
+      <p>JSpiders PySpiders (June–December 2024)</p>
+      <a class="btn" href="./port_assets/python_fullstack_certificate.pdf" target="_blank">View Certificate</a>
+    </div>
+
+    <div class="card">
+      <h3>Programming in Java – NPTEL</h3>
+      <p>Elite Medalist</p>
+      <a class="btn" href="./port_assets/nptel.pdf" target="_blank">View Certificate</a>
+    </div>
+  </section>
+
+
+  <!-- Projects Section -->
+  <section class="section" id="projects">
+    <h2>Projects</h2>
+    <div class="card">
+      <h3>Biometric Based Automatic Vehicle Starter</h3>
+      <p>Language: C | Hardware project for vehicle access using fingerprint authentication. Published in International Journal for Recent Developments in Science and Technology.</p>
+    </div>
+    <div class="card">
+      <h3>Smart Restaurant Management System</h3>
+      <p>Tool: MIT App Inventor | Mobile app for restaurant orders and billing. Published in International Journal for Advanced Research in Science and Technology.</p>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section class="section resume-section" id="resume">
+    <h2>Download My Resume</h2>
+    <a href="./port_assets/sindhu.pdf" download target="_blank">Download Resume</a>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section" id="contact">
+    <h2>Contact</h2>
+    <p>Email: sindujajampala2002@gmail.com</p>
+    <p>GitHub: <a href="https://github.com/sindhujajampala" target="_blank">github.com/sindhujajampala</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/sindhuja-jampala-397a13274" target="_blank">linkedin.com/in/sindhuja-jampala</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Jampala Sindhuja. All rights reserved.</p>
+  </footer>
+
+  <!-- Smooth Scroll Script -->
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+      link.addEventListener('click', e => {
+        e.preventDefault();
+        document.querySelector(link.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+
+</body>
+</html>
+
